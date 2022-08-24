@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h2>My Contact Information: </h2>
+    <ul>
+        <li>Email: <a>goelvansh2@gmail.com</a></li>
+        <li>Twitter: _VanshGoel_</li>
+        <li>Github: vansh-goel</li>
+    </ul>
+    <form action="mailto:goelvansh2@gmail.com" method="post" enctype="text/plain"> <!--The Action part is what is to be done after submitting the form using mailto helps the user send a mail to our e-mail, and we have to add enctype text/plain so that it shows plain text in the mail app-->
+        <label>Your Name: </label>
+        <input type="text" name="Name">
+        <!-- <input type="color" name="" id=""> -->
+        <br><br>
+        <!-- <input type="checkbox" name="" id=""> -->
+        <label>Your Email: </label>
+        <input type="email" name="Email" id="">
+        <br><br>
+        <label>Your Message: </label><br>
+        <textarea name="Message" id="" cols="30" rows="5"></textarea><br><br>
+        <input type="submit" value="Submit">
+        <!--The Names that we give here in the attributes are the names which are automatically typed in the mail app when user hits submit-->
+    </form>
+</body>
+</html>
