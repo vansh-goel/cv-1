@@ -9,15 +9,16 @@ hr{
 }
 img{
     height: 200px;
+    border-radius: 100%;
 }
 body{
-    background-color: #D3CEDF;
+    background-color: #9ED2C6;
 }
 h1{
-    color: #748DA6;
+    color: #2B4865;
 }
 h3{
-    color: #748DA6;
+    color: #2B4865;
 }
 
 /*ID and class selectors take preference over general tag selectors, so if tag is supposed to be red and id asks it to be blue it will be blue not red*/
